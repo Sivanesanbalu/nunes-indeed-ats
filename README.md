@@ -13,7 +13,7 @@ The platform seamlessly bridges candidate sourcing from **Indeed Employer accoun
 ---
 
 ## 🚀 Live Production URL
-* **Web Application**: [https://nunes-indeed-ats.vercel.app](https://nunes-indeed-ats.vercel.app)
+
 * **GitHub Repository**: [https://github.com/Sivanesanbalu/nunes-indeed-ats](https://github.com/Sivanesanbalu/nunes-indeed-ats)
 * **Official HR Mailbox**: `nuneslead@gmail.com`
 * **Headquarters**: Rathinapuri, Coimbatore, Tamil Nadu - 641027
