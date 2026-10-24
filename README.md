@@ -1,6 +1,6 @@
 # Nunes Instrumentation — Enterprise AI ATS & Recruitment Automation Platform
 
-[![Vercel Deployment](https://img.shields.io/badge/Vercel-Production%20Live-black?logo=vercel)](https://nunes-indeed-ats.vercel.app)
+
 [![Python](https://img.shields.io/badge/Python-3.12%2B-blue?logo=python)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Modern%20Async%20API-009688?logo=fastapi)](https://fastapi.tiangolo.com)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini%20ATS-412991?logo=openai)](https://openai.com)
