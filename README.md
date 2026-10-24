@@ -104,7 +104,7 @@ When the recruiter approves shortlisted candidates, the system calculates the in
    * Valid Government Photo Identification (Aadhaar / Driving License).
    * Previous experience certificates or recent salary slips.
 3. **Interactive 1-Click Confirmation CTA**:
-   * Candidate clicks **`✓ Click Here to Confirm Attendance`**, which opens their native email app pre-populated with attendance confirmation details directly addressed to `nuneslead@gmail.com`.
+   * Candidate clicks **`✓ Click Here to Confirm Attendance`**, which opens their native email app pre-populated with attendance confirmation details directly addressed to `----@gmail.com`.
 4. **Duplicate Safeguard**: Candidates who already have `mail2_status == 'SENT'` are automatically protected against duplicate invitation dispatches.
 
 ---
