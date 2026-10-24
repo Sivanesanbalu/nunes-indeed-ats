@@ -166,9 +166,9 @@ pip install -r requirements.txt
 Create a `.env` file in the root directory:
 ```env
 OPENAI_API_KEY=your_openai_api_key_here
-SMTP_EMAIL=nuneslead@gmail.com
+SMTP_EMAIL=yourgmail.com
 SMTP_PASSWORD=your_gmail_app_password_here
-COMPANY_NAME=Nunes Instruments
+COMPANY_NAME=-----
 ```
 
 ### 4. Run Local Server
