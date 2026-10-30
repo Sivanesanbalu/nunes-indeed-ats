@@ -1,6 +1,6 @@
 # Nunes Instrumentation — Enterprise AI ATS & Recruitment Automation Platform
 
-
+[![Vercel Deployment](https://img.shields.io/badge/Vercel-Production%20Live-black?logo=vercel)](https://nunes-indeed-ats-nine.vercel.app)
 [![Python](https://img.shields.io/badge/Python-3.12%2B-blue?logo=python)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Modern%20Async%20API-009688?logo=fastapi)](https://fastapi.tiangolo.com)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini%20ATS-412991?logo=openai)](https://openai.com)
@@ -13,9 +13,10 @@ The platform seamlessly bridges candidate sourcing from **Indeed Employer accoun
 ---
 
 ## 🚀 Live Production URL
-
+* **Web Application (Vercel Production)**: [https://nunes-indeed-ats-nine.vercel.app](https://nunes-indeed-ats-nine.vercel.app)
 * **GitHub Repository**: [https://github.com/Sivanesanbalu/nunes-indeed-ats](https://github.com/Sivanesanbalu/nunes-indeed-ats)
-
+* **Official HR Mailbox**: `nuneslead@gmail.com`
+* **Headquarters**: Rathinapuri, Coimbatore, Tamil Nadu - 641027
 
 ---
 
@@ -70,7 +71,7 @@ flowchart TD
 ### Step 4: Recruiter Review & Checkbox Selection
 * **Smart Bulk Selectors**:
   * `Select Shortlisted`: Checks all candidates with $\ge 75\%$ score in 1 click.
-  * `Select Top 5` / `Select Top 10`: Selects the highest ranked candidates.
+  * `Select Top 5` / `Select Top 10` / `Select Top 20`: Selects the highest ranked candidates.
   * `Select All`: Selects all active applicants in the opening.
   * Manual individual candidate checkboxes.
 * **Candidate Stage Lifecycle Tracker**:
@@ -104,7 +105,7 @@ When the recruiter approves shortlisted candidates, the system calculates the in
    * Valid Government Photo Identification (Aadhaar / Driving License).
    * Previous experience certificates or recent salary slips.
 3. **Interactive 1-Click Confirmation CTA**:
-   * Candidate clicks **`✓ Click Here to Confirm Attendance`**, which opens their native email app pre-populated with attendance confirmation details directly addressed to `----@gmail.com`.
+   * Candidate clicks **`✓ Click Here to Confirm Attendance`**, which opens their native email app pre-populated with attendance confirmation details directly addressed to `nuneslead@gmail.com`.
 4. **Duplicate Safeguard**: Candidates who already have `mail2_status == 'SENT'` are automatically protected against duplicate invitation dispatches.
 
 ---
@@ -166,9 +167,9 @@ pip install -r requirements.txt
 Create a `.env` file in the root directory:
 ```env
 OPENAI_API_KEY=your_openai_api_key_here
-SMTP_EMAIL=yourgmail.com
+SMTP_EMAIL=nuneslead@gmail.com
 SMTP_PASSWORD=your_gmail_app_password_here
-COMPANY_NAME=-----
+COMPANY_NAME=Nunes Instruments
 ```
 
 ### 4. Run Local Server
